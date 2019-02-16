@@ -11,7 +11,7 @@ class Wallet713 < Formula
   depends_on :macos => :sierra
 
   def install
-	  raise "Error, only supporting binary packages at this time"
+	  bin.install "wallet713"
   end
 
 end
