@@ -2,4 +2,6 @@
 
 ## Use
 
+```
 brew tap saltbo/wallet713 && brew install wallet713
+```
