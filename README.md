@@ -1,7 +1,7 @@
-# homebrew-wallet713
+# homebrew-bin
 
 ## Use
 
 ```
-brew tap saltbo/wallet713 && brew install wallet713
+brew tap saltbo/bin
 ```
