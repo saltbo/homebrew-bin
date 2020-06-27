@@ -7,11 +7,11 @@ class Uptoc < Formula
 
   if OS.mac?
     url "https://github.com/saltbo/uptoc/releases/download/v1.4.0/uptoc-macos-amd64.tar.gz"
-    sha256 "9546af0bfde2e87ba7d095e72f544184740a31e8ec05268a28d47270eb854aa5"
+    sha256 "3589f351393bd76ea05b37929fb9cb627bd73a903bd866646e5829575458de3b"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/saltbo/uptoc/releases/download/v1.4.0/uptoc-linux-amd64.tar.gz"
-      sha256 "675906f299b81d94859c85aeab6d06eddf1b536f34846130910db2b6b8edbe8f"
+      sha256 "7cf98b0636c6025667dd56dc6814403146e1a6f175674ce00ab735a7cae467bb"
     end
   end
 
