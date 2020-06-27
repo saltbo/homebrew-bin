@@ -2,16 +2,16 @@
 class Uptoc < Formula
   desc "Convenient static file deployment tool that supports multiple platforms"
   homepage "https://github.com/saltbo/uptoc"
-  version "1.4.1"
+  version "1.4.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/saltbo/uptoc/releases/download/v1.4.1/uptoc-macos-amd64.tar.gz"
-    sha256 "1a81f1d31b9b3eedbb9bc89c708089b81f543a26d58aea46611b52679d7ddb32"
+    url "https://github.com/saltbo/uptoc/releases/download/v1.4.2/uptoc-macos-amd64.tar.gz"
+    sha256 "cff81dddc19f1240cf49dad5bcb260a1917b1d522836c0b89af5d87354aa62e1"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/saltbo/uptoc/releases/download/v1.4.1/uptoc-linux-amd64.tar.gz"
-      sha256 "efc75ad1dfeea44f6cbdd416c654dce9768e866ffbcd6a63e829d67015b6c95b"
+      url "https://github.com/saltbo/uptoc/releases/download/v1.4.2/uptoc-linux-amd64.tar.gz"
+      sha256 "fed309693b677cbc94e8b848a0ab5070768ab601f422a2ae1e4a3a9fa787f9c2"
     end
   end
 
