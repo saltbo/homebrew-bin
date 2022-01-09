@@ -18,7 +18,7 @@ class NotionMdGen < Formula
       end
       if Hardware::CPU.intel?
         url "https://github.com/saltbo/notion-md-gen/releases/download/v1.1.1/notion-md-gen-macos-amd64.tar.gz"
-        sha256 "1a9f3cd743682384e682cf7a3b121416f56fef25e866df428d9dfd258062b1f7"
+        sha256 "eb82d0988637cfeb580571e5fdc66d7a6d3a05984092e2c8f3fbd6074644f627"
   
         def install
           bin.install "notion-md-gen"
