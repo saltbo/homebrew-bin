@@ -3,7 +3,6 @@ class Uptoc < Formula
   desc "Convenient static file deployment tool that supports multiple platforms"
   homepage "https://github.com/saltbo/uptoc"
   version "1.4.3"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/saltbo/uptoc/releases/download/v1.4.3/uptoc-macos-amd64.tar.gz"
