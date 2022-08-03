@@ -4,12 +4,12 @@ class Seenvoy < Formula
   version "0.0.1"
 
   if OS.mac?
-    url "https://github.com/saltbo/seenvoy/releases/download/v0.0.1/seenvoy-v0.0.1-macos-x86_64.tar.gz"
-    sha256 "c14c6b43ab2280c82d815bf91895b64ed31bf6a5c127f6ca83aa8faac0ef32e9"
+    url "https://github.com/saltbo/seenvoy/releases/download/v0.0.2/seenvoy-v0.0.2-macos-x86_64.tar.gz"
+    sha256 "cdeb765070de0daefdd34e57375b9f4ca1fbefa2e36600994bb63b8b14b9eaee"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/saltbo/seenvoy/releases/download/v0.0.1/seenvoy-v0.0.1-linux-x86_64.tar.gz"
-      sha256 "2e329b2e51155cbcdae7d6a2ae5672738b5248a7192ed6fb9508f291f5780a8f"
+      url "https://github.com/saltbo/seenvoy/releases/download/v0.0.2/seenvoy-v0.0.2-linux-x86_64.tar.gz"
+      sha256 "8f1bd3f0a828048c8d5e6edc2d2ba339c5c963afbc25aeafa6b937565ed0ae90"
     end
   end
 
