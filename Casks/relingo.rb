@@ -1,9 +1,9 @@
 cask "relingo" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.0.7"
-  sha256 arm:   "4e44dfbbdf54b9d410250567f61abc64a4d8972eb2b5ffd60e26066e61e09ff6",
-         intel: "e534fd429712e7ec912613bcf406f85917e711fbd4ae8153777cdaffa8100f59"
+  version "0.0.8"
+  sha256 arm:   "9cc36e06580c49ffd71efc251ca5ba306d5fe94f324bb10fdf75f7e425358840",
+         intel: "2ce2f4f372f6bebde3223ea082bd9901422ac991a9728152c86e8ffb337a9058"
 
   url "https://github.com/bonaysoft/relingo-desktop/releases/download/v#{version}/relingo-desktop-v#{version}-macos-#{arch}.dmg"
   name "relingo-desktop"
